@@ -16,10 +16,19 @@ Just add ".test" to the authority of the content providers to access the test da
 
 content://com.android.partnerbookmarks**.test**
 
-| Bookmark                                                      | Favicon | Touch Icon |
+| Bookmark (/bookmarks)                                         | Favicon | Touch Icon |
 |---------------------------------------------------------------|---------|------------|
 | Android Zeitgeist : http://www.androidzeitgeist.com           | ✘       | ✘          |
 | Hacker News : https://news.ycombinator.com/                   | ✓       | ✘          |
 | Developing Android Apps : https://www.reddit.com/r/androiddev | ✘       | ✓          |
 | GitHub : https://github.com/                                  | ✓       | ✓          |
 
+### Customizations
+
+content://com.android.partnerbrowsercustomizations**.test**
+
+| Path                     | Column                  | Value                  |
+|--------------------------|-------------------------|------------------------|
+| /homepage                | homepage                | http://www.example.org |
+| /disableincognitomode    | disableincognitomode    | 1                      |
+| /disablebookmarksediting | disablebookmarksediting | 1                      |
