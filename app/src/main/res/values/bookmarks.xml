@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bookmarks_folder_name">Partner Bookmarks</string>
+
+    <string-array name="bookmarks">
+        <item>Android Zeitgeist</item>
+        <item>http://www.androidzeitgeist.com</item>
+
+        <item>Hacker News</item>
+        <item>https://news.ycombinator.com/</item>
+
+        <item>Developing Android Apps</item>
+        <item>https://www.reddit.com/r/androiddev</item>
+
+        <item>GitHub</item>
+        <item>https://github.com/</item>
+    </string-array>
+
+    <array name="bookmark_preloads">
+        <item>0</item>
+        <item>0</item>
+
+        <item>@raw/hackernews_favicon</item>
+        <item>0</item>
+
+        <item>0</item>
+        <item>@raw/reddit_touchicon</item>
+
+        <item>@raw/github_favicon</item>
+        <item>@raw/github_touchicon</item>
+    </array>
+</resources>
