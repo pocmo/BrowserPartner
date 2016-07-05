@@ -20,6 +20,11 @@
             android:authorities="com.android.partnerbookmarks.test"
             android:name=".partnerbookmarks.PartnerBookmarksProvider"
             android:exported="true" />
+
+        <provider
+            android:authorities="com.android.partnerbrowsercustomizations.test"
+            android:name=".customizations.PartnerBrowserCustomizationsProvider"
+            android:exported="true" />
     </application>
 
 </manifest>
