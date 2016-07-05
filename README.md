@@ -7,6 +7,8 @@ with test data.
 
 ### Bookmarks
 
+content://com.android.partnerbookmarks**.test**
+
 | Bookmark                                                      | Favicon | Touch Icon |
 |---------------------------------------------------------------|---------|------------|
 | Android Zeitgeist : http://www.androidzeitgeist.com           | ✘       | ✘          |
